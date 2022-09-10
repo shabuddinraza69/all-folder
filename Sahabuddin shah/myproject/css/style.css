@@ -1,0 +1,91 @@
+*{
+    margin: 0;padding: 0;
+}
+.container{
+    width: 99.8%;
+    height: 100%;
+    border: 1px solid black;
+    display: grid;
+    /* grid-template-areas: "header header carasol carasol"; */
+    gap: 5px;
+    grid-template-areas: "header header header header" "carasol carasol carasol carasol" 
+    "about-info about-info about-info about-info" 
+    "about-info-left about-info-left about-info-right about-info-right"
+    "about-info-btn about-info-btn about-info-btn about-info-btn" 
+    "screenshot-1 screenshot-1 screenshot-1 screenshot-1"
+    "screenshot-2 screenshot-2 screenshot-2 screenshot-2"
+    "screenshot-btn screenshot-btn screenshot-btn screenshot-btn"
+    "services services services services"
+    "ourblog ourblog ourblog ourblog"
+    ;
+}
+
+.header{
+    height: 100px;
+    border: 1px solid black;
+    grid-area: header;
+}
+
+.carasol{
+    height: 100px;
+    border: 1px solid black;
+    grid-area: carasol;
+}
+.about-info{
+    height: 100px;
+    border: 1px solid black;
+    grid-area: about-info;
+}
+
+.about-info-left{
+    height: 100px;
+    border: 1px solid black;
+    grid-area: about-info-left;
+}
+
+.about-info-right{
+    height: 100px;
+    border: 1px solid black;
+    grid-area: about-info-right;
+}
+
+.about-info-btn{
+    height: 100px;
+    border: 1px solid black;
+    grid-area: about-info;
+}
+
+.screenshot-1{
+    height: 100px;
+    border: 1px solid black;
+    grid-area: screenshot-1;
+}
+
+.screenshot-2{
+    height: 100px;
+    border: 1px solid black;
+    grid-area: screenshot-2;
+}
+.screenshot-btn{
+    height: 100px;
+    border: 1px solid black;
+    grid-area: screenshot-btn;
+}
+
+.services{
+    height: 780px;
+    border: 1px solid black;
+    grid-area: screenshot-btn;
+}
+.box-img{
+    width: 425px;
+    height: 350px;
+    float: left;
+    margin: 10px;
+    border: 1px solid black;
+}
+.ourblog{
+    height: 100px;
+    border: 1px solid black;
+    grid-area: ourblog;
+}

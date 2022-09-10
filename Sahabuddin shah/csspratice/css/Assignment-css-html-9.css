@@ -1,0 +1,445 @@
+   
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) { */
+    
+    
+    .container {
+       width: 100%;
+       height: 100%;
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       /* display: grid; */
+        grid-template-rows: "header header header header""box-1 box-1 box-1 box-1""cord-1 cord-1 cord-1 cord-1""cord-2 cord-2 cord-2 cord-2""box-2 box-2 box-2 box-2""right right right right""cord-3  cord-3  cord-3  cord-3 ""box-3 box-3 box-3 box-3""cord-4 cord-4 cord-4 cord-4"
+          "box-4  box-4  box-4  box-4 ""cord-5 cord-5 cord-5 cord-5""cord-6 cord-6 cord-6 cord-6""cord-7 cord-7 cord-7 cord-7""cord-8 cord-8 cord-8 cord-8"
+          "cord-9 cord-9 cord-9 cord-9""cord-10 cord-10 cord-10 cord-10""box-5  box-5  box-5  box-5 ""cord-11 cord-11 cord-11 cord-11""cord-12 cord-12 cord-12 cord-12"
+          "cord-13 cord-13 cord-13 cord-13""cord-14 cord-14 cord-14 cord-14""cord-15 cord-15 cord-15 cord-15""cord-16 cord-16 cord-16 cord-16"
+          "cord-17 cord-17 cord-17 cord-17""cord-18 cord-18 cord-18 cord-18""box-6 box-6 box-6 box-6""box-7 box-7 box-7 box-7";
+
+    }
+ 
+    .header {
+       grid-area: header;
+       height: 100px;
+       border: 1px solid black;
+    }
+ 
+    .box-1 {
+       grid-area: box-1;
+       height: 544px;
+       border: 1px solid black;
+ 
+    }
+ 
+    .cord-1 {
+       grid-area: cord-1;
+       height: 200px;
+       border: 1px solid black;
+    }
+ 
+    .cord-2 {
+       grid-area: cord-2;
+       height: 200px;
+       border: 1px solid black;
+    }
+ 
+    .box-2 {
+       grid-area: box-2;
+       height: 400px;
+       border: 1px solid black;
+    }
+ 
+    .right {
+       grid-area: right;
+       width: 700px;
+       height: 400px;
+       border: 1px solid black;
+       float: right;
+    }
+ 
+    .cord-3 {
+       grid-area: cord-3;
+       height: 400px;
+       border: 1px solid black;
+    }
+ 
+    .box-3 {
+       grid-area: box-3;
+       height: 640px;
+       border: 1px solid black;
+    }
+ 
+    .cord-4 {
+       grid-area: cord-4;
+       height: 170px;
+       border: 1px solid black;
+    }
+ 
+    .box-4 {
+       grid-area: box-4;
+       height: 712px;
+       border: 1px solid black;
+ 
+    }
+ 
+    .cord-5 {
+       grid-area: cord-5;
+       height: 200px;
+       border-radius: 20px;
+       border: 1px solid black;
+       margin-top: 20px;
+    }
+ 
+    .cord-6 {
+       grid-area: cord-6;
+       height: 200px;
+       border-radius: 20px;
+       border: 1px solid black;
+       margin-top: 20px;
+ 
+    }
+ 
+    .cord-7 {
+       grid-area: cord-7;
+       height: 200px;
+       border-radius: 20px;
+       border: 1px solid black;
+       margin-top: 20px;
+ 
+    }
+ 
+    .cord-8 {
+       grid-area: cord-8;
+       height: 200px;
+       border-radius: 20px;
+       border: 1px solid black;
+       margin-top: 20px;
+    }
+ 
+    .cord-9 {
+       grid-area: cord-9;
+       height: 200px;
+       border-radius: 20px;
+       border: 1px solid black;
+       margin-top: 20px;
+    }
+ 
+    .cord-10 {
+       grid-area: cord-10;
+       height: 200px;
+       border-radius: 20px;
+       border: 1px solid black;
+       margin-top: 20px;
+ 
+    }
+ 
+    .box-5 {
+       grid-area: box-5;
+       height: 250px;
+       border: 1px solid black;
+    }
+   
+   
+    .cord-11 {
+       grid-area: cord-11;
+       height: 300px;
+       border: 1px solid black;
+       margin-top: 30px;
+ 
+    }
+ 
+    .cord-12 {
+ 
+       grid-area: cord-12;
+       height: 300px;
+       border: 1px solid black;
+       margin-top: 30px;
+    }
+ 
+    .cord-13 {
+       grid-area: cord-13;
+       height: 300px;
+       border: 1px solid black;
+       margin-top: 30px;
+    }
+ 
+    .cord-14 {
+ 
+       grid-area: cord-14;
+       height: 300px;
+       border: 1px solid black;
+       margin-top: 30px;
+    }
+ 
+    .cord-15 {
+       grid-area: cord-15;
+       height: 300px;
+       border: 1px solid black;
+       margin-top: 30px;
+ 
+    }
+ 
+    .cord-16 {
+ 
+       grid-area: cord-16;
+       height: 300px;
+       border: 1px solid black;
+       margin-top: 30px;
+    }
+ 
+    .cord-17 {
+       grid-area: cord-17;
+       height: 300px;
+       border: 1px solid black;
+       margin-top: 30px;
+ 
+    }
+ 
+     .cord-18 {
+ 
+       grid-area: cord-18;
+       height: 300px;
+       border: 1px solid black;
+       margin-top: 30px;
+    } 
+ 
+     .cord-19 {
+       grid-area: box-6;
+       height: 650px;
+       border: 1px solid black;
+       margin-top: 30px;
+    } 
+ 
+     .cord-20 {
+       grid-area: box-6;
+       height: 650px;
+       border: 1px solid black;
+       margin-top: 30px;
+    } 
+ 
+     .cord-21 {
+       grid-area: box-7;
+       height: 350px;
+       border: 1px solid black;
+       margin-top: 30px;
+    } 
+/* } */
+   
+    /* Medium devices (landscape tablets, 768px and up) */
+     @media only screen and (min-width: 768px) { 
+      .container {
+         width: 100%;
+         height: 100%;
+         background-position: center;
+         background-size: cover;
+         background-repeat: no-repeat;
+         /* display: grid; */
+         grid-template-rows: "header header header header""box-1 box-1 box-1 box-1""cord-1 cord-1 cord-1 cord-1""cord-2 cord-2 cord-2 cord-2""box-2 box-2 box-2 box-2""right right right right""cord-3  cord-3  cord-3  cord-3 ""box-3 box-3 box-3 box-3""cord-4 cord-4 cord-4 cord-4"
+            "box-4  box-4  box-4  box-4 ""cord-5 cord-5 cord-5 cord-5""box-5  box-5  box-5  box-5 ""cord-11 cord-11 cord-11 cord-11""cord-12 cord-12 cord-12 cord-12"
+            "cord-13 cord-13 cord-13 cord-13""cord-14 cord-14 cord-14 cord-14""cord-15 cord-15 cord-15 cord-15""cord-16 cord-16 cord-16 cord-16"
+            "cord-17 cord-17 cord-17 cord-17""cord-18 cord-18 cord-18 cord-18""box-6 box-6 box-6 box-6""box-7 box-7 box-7 box-7";
+      
+      }
+      
+      .header {
+         grid-area: header;
+         height: 100px;
+         border: 1px solid black;
+      }
+      
+      .box-1 {
+         grid-area: box-1;
+         height: 544px;
+         border: 1px solid black;
+      
+      }
+      
+      .cord-1 {
+         grid-area: cord-1;
+         height: 200px;
+         border: 1px solid black;
+      }
+      
+      .cord-2 {
+         grid-area: cord-2;
+         height: 200px;
+         border: 1px solid black;
+      }
+      
+      .box-2 {
+         grid-area: box-2;
+         height: 400px;
+         border: 1px solid black;
+      }
+      
+      .right {
+         grid-area: right;
+         width: 320px;
+         height: 400px;
+         border: 1px solid black;
+         float: right;
+      }
+      
+      .cord-3 {
+         grid-area: cord-3;
+         height: 400px;
+         border: 1px solid black;
+      }
+      
+      .box-3 {
+         grid-area: box-3;
+         height: 640px;
+         border: 1px solid black;
+      }
+      
+      .cord-4 {
+         grid-area: cord-4;
+         height: 170px;
+         border: 1px solid black;
+      }
+      
+      .box-4 {
+         grid-area: box-4;
+         height: 712px;
+         border: 1px solid black;
+      
+      }
+      
+      .cord-5 {
+         /* grid-area: cord-5; */
+         height: 200px;
+         width: 350px;
+         border-radius: 20px;
+         float: left;
+         border: 1px solid black;
+         margin: 10px;
+         /* margin-right: 90px; */
+         margin-top: 20px;
+      }
+      
+     
+      
+      .box-5 {
+         grid-area: box-5;
+         height: 250px;
+         border: 1px solid black;
+      
+      }
+      .box-25{
+         grid-area: box-4;
+         height: 950px;
+         border: 1px solid black;
+      }
+      
+      .cord-11 {
+           /* grid-area: cord-5; */
+           height: 200px;
+           width: 350px;
+           /* border-radius: 20px; */
+           float: left;
+           border: 1px solid black;
+           margin: 10px;
+           /* margin-right: 90px; */
+           margin-top: 20px;
+      
+      }
+       .cord-12 {
+         /* /* grid-area: cord-11;  */
+         height: 300px;
+         width: 300px;
+         border: 1px solid black;
+         float: right;
+         margin-right: 50px;
+         margin-top: 30px;
+      
+      }
+      .cord-13 {
+         /* grid-area: cord-11; */
+         height: 300px;
+         width: 300px;
+         border: 1px solid black;
+         float: right;
+         margin-right: 50px;
+         margin-top: 30px;
+      
+      }
+      .cord-14 {
+         /* grid-area: cord-11; */
+         height: 300px;
+         width: 300px;
+         border: 1px solid black;
+         float: right;
+         margin-right: 50px;
+         margin-top: 30px;
+      
+      }
+      .cord-15 {
+         /* grid-area: cord-11; */
+         height: 300px;
+         width: 300px;
+         border: 1px solid black;
+         float: right;
+         margin-right: 50px;
+         margin-top: 30px;
+      
+      }
+      .cord-16 {
+         /* grid-area: cord-11; */
+         height: 300px;
+         width: 300px;
+         border: 1px solid black;
+         float: right;
+         margin-right: 50px;
+         margin-top: 30px;
+      
+      }
+      
+      .cord-17 {
+         /* grid-area: cord-11; */
+         height: 300px;
+         width: 300px;
+         border: 1px solid black;
+         float: right;
+         margin-right: 50px;
+         margin-top: 30px;
+      
+      }
+      .cord-18{
+         /* grid-area: cord-11; */
+         height: 300px;
+         width: 300px;
+         border: 1px solid black;
+         float: right;
+         margin-right: 50px;
+         margin-top: 30px;
+      
+      } 
+      
+       
+      
+
+      .cord-19 {
+         grid-area: box-6;
+         height: 650px;
+         border: 1px solid black;
+         margin-top: 30px;
+      }
+      
+      .cord-20{
+         grid-area: box-6;
+         height: 650px;
+         border: 1px solid black;
+         margin-top: 30px;
+      }
+      
+      .cord-21 {
+         grid-area: box-7;
+         height: 350px;
+         border: 1px solid black;
+         margin-top: 30px;
+      }
+     
+    } 
+    
+   

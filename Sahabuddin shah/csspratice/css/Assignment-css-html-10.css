@@ -1,0 +1,29 @@
+.container{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* display: grid; */
+    /* grid-template-areas: ; */
+}
+.header{
+    height: 100px;
+    border: 1px solid black;
+    grid-area: header;
+}
+.carasol{
+    height: 100px;
+    border: 1px solid black;
+    grid-area: carasol;
+}
+.about-info{
+    height: 100px;
+    border: 1px solid black;
+    grid-area: about-info;
+}
+.about-info-left{
+    height: 100px;
+    border: 1px solid black;
+    grid-area: about-info-left;
+}

@@ -1,0 +1,27 @@
+li{
+    /* list-style-image:url("https://www.kindpng.com/picc/m/313-3131657_blue-bullets-icon-png-transparent-png.png"); */
+    list-style-position: inside;
+    list-style-type: armenian;
+    list-style-type: circle;
+    list-style-type: decimal;
+    list-style-type: decimal-leading-zero;
+    list-style-type: disc;
+    list-style-type: georgian;
+    list-style-type: lower-alpha;
+    list-style-type: lower-greek;
+    list-style-type: lower-latin;
+    list-style-type: lower-roman;
+    list-style-type: none;
+    list-style-type: square;
+    list-style-type: symbols();
+    list-style-type: upper-alpha;
+    list-style-type: upper-latin;
+    list-style-type: upper-roman;
+    list-style-type: calc();
+    list-style-type: inherit;
+    list-style-type: initial;
+    list-style-type: unset;
+    list-style-type: var();
+    
+
+}

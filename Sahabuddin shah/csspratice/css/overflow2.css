@@ -1,0 +1,9 @@
+.box-1{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    overflow:auto;
+    overflow: scroll;
+    overflow: visible;
+    overflow: hidden;
+    overflow: scroll;

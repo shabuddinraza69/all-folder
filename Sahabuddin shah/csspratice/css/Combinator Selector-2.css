@@ -1,0 +1,11 @@
+/* h1~p{
+    color: blue;
+} */
+
+p+p{
+    color: blue     ;
+}
+
+div > p{
+    color: red;
+}

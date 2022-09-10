@@ -1,0 +1,15 @@
+.move{
+    cursor: move;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.default{
+    cursor:default;
+}
+table{
+    width: 100%;
+    height: 100%;
+}

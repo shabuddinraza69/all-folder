@@ -1,0 +1,9 @@
+h1{
+    color:green;
+    width: 350px;
+    border: solid 10px;
+    border-color: red;
+    border-style: groove;
+    border-width: 100px;
+    border-radius: 60px 40px 42px 40px;
+}

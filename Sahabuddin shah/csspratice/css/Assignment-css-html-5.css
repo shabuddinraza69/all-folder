@@ -1,0 +1,64 @@
+.container{
+    width: 100%;
+    height: 1000%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.box-1{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    text-align: right ;
+
+
+}
+.container-1 {
+
+    height: 100%;
+    display: grid;
+    grid-template-areas:"left center  center right " ;
+}
+.left {
+    height: 340px;
+    width: 200px;
+    background-color:lightblue;
+    grid-area: left;
+      
+}
+
+.center {
+    height: 210px;
+    width: 950px;
+    background-color:lightblue;
+    grid-area: center;
+}
+
+.right {
+    height: 340px;
+    width: 200px;
+    background-color: lightblue;
+    grid-area: right;
+}
+.box-2{
+    width: 500px;
+    height: 50px;
+    background-color: lawngreen;
+    float: right;
+    background-image: url("https://s3.buysellads.com/creatives/ae9ecf6e605a5fa20cc834e15c549c48-1519045481.jpeg");
+    
+}
+.box-3{
+    width: 950px;
+    height: 50px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+   .box-4{
+    background-image: url("https://www.free-css.com/assets/images/affiliates/elegantthemes-900x120.jpg");
+   }

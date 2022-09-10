@@ -1,0 +1,128 @@
+table{
+    width: 50%;
+    height: 50%;
+}
+.move{
+    cursor: move;
+
+}
+.pointer{
+    cursor:pointer;
+}
+
+.alias{
+    cursor:alias;
+}
+.all-scrollall-scroll{
+    cursor:all-scroll;
+}
+.auto{
+    cursor:auto;
+}
+.cell{
+    cursor:cell;
+}
+.col-resize{
+    cursor:col-resize;
+}
+.context-menu{
+    cursor:context-menu;
+}
+.copy{
+    cursor:copy;
+}
+.crosshair{
+    cursor:crosshair;
+}
+.default{
+    cursor:default;
+}
+.e-resize{
+    cursor:e-resize;
+}
+.ew-resize{
+    cursor:ew-resize;
+}
+.grab{
+    cursor:grab;
+}
+.grabbing{
+    cursor:grabbing;
+}
+.help{
+    cursor:help;
+}
+.n-resize{
+    cursor:n-resize;
+}
+.ne-resize{
+    cursor:ne-resize;
+}
+.nesw-resize{
+    cursor:nesw-resize;
+}
+.no-drop{
+    cursor:no-drop;
+}
+.none{
+    cursor:none;
+}
+.not-allowed{
+    cursor:not-allowed;
+}
+.ns-resize{
+    cursor:ns-resize;
+}
+
+.nw-resize{
+    cursor:nw-resize;
+}
+
+.nwse-resize{
+    cursor:nwse-resize;
+}
+
+.progress{
+    cursor:progress;
+}
+
+.row-resize{
+    cursor:row-resize;
+}
+
+.s-resiz{
+    cursor:s-resize;
+}
+
+.ns-resize{
+    cursor:ns-resize;
+}
+
+.sw-resize{
+    cursor:sw-resize;
+}
+
+.s-resize{
+    cursor:s-resize;
+}
+
+.se-resiz{
+    cursor:se-resize;
+}
+.progress{
+    cursor:progress;
+}
+.row-resize{
+    cursor:row-resize;
+}
+.s-resiz{
+    cursor:s-resize;
+}
+.s-resize{
+    cursor:s-resize;
+
+}
+.sw-resize{
+    cursor:sw-resize;
+
+}

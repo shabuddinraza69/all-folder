@@ -1,0 +1,14 @@
+P::after{
+    content: ' this is a after p';
+}
+P::before{
+    content: 'this is a after p ';
+}
+
+p::first-letter{
+    font-size: 100px;
+}
+
+p::first-line{
+    font-size: larger;
+}

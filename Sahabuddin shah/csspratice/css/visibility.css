@@ -1,0 +1,13 @@
+h1{
+    visibility: hidden;
+    visibility: initials;
+}
+table{
+    width: 100%;
+    height: 300px;
+}
+
+td,th{
+    visibility: collapse;
+    visibility: initial;
+}

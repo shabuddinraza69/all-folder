@@ -1,0 +1,17 @@
+h1,p::after{
+    content:'Sahabuddin Raza ';
+    color: aqua;
+}
+h2,p::before{
+    content: 'Shamsuddin Raza';
+    color: red;
+}
+h3::first-letter{
+    font-size: 80px;
+    color: blue;
+}
+h4::first-line{
+    font-size: 40px;
+    color: orange;
+
+}

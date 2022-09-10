@@ -1,0 +1,25 @@
+.container{
+    display: grid;
+
+    
+}
+
+.row-1{
+    height: 190px;
+    background-color: orangered;
+    grid-column: 100%;
+    
+}
+
+.row-2{
+  height: 190px;
+  background-color: white;
+  grid-column: 100%;
+
+}
+
+.row-3{
+    height: 190px;
+    background-color:green;
+    grid-column-end:  100%;
+}

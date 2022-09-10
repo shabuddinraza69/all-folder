@@ -1,0 +1,17 @@
+li{
+    display: inline;
+}
+
+li a{
+    display: inline-block;
+}
+
+
+a{
+    display: block;
+    /* display: none; */
+}
+
+p{
+    display: none;
+}

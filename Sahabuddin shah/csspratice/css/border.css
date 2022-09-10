@@ -1,0 +1,56 @@
+.box-1{
+    width: 600px;
+    height: 600px;
+    background-color: aqua;
+    
+    border-top: 20px solid magenta;
+    border-right: 20px solid peru;
+    border-left: 20px solid greenyellow;
+    border-bottom: 20px solid salmon;
+    
+
+}
+.box-2{
+    width:500px;
+    height: 500px;
+    background-color: burlywood;
+    border-top: 5px solid #000;
+    border-bottom:10px solid green;
+    border-left: 20px solid yellow;
+    border-right: 10px solid orangered;
+
+    
+}
+.box-3{
+    width: 400px;
+    height: 400px;
+    background-color:yellowgreen;
+    border-top: 10px solid palevioletred;
+    border-right: 10px solid black;
+    border-bottom: 10px solid green;
+    border-left: 10px solid pink;
+    
+}
+.box-4{
+    width: 300px;
+    height: 300px;
+    color: yellow;
+    background-color: blue;
+    border-top: 10px solid orangered;
+    border-left: 5px solid red;
+    border-right: 7px solid palegreen;
+    border-bottom: 8px solid palegoldenrod;
+    
+    
+}
+.box-5{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-top: 10px solid hotpink;
+    border-left: 9px solid darkorange;
+    border-bottom: 8px solid deepskyblue;
+    border-right: 6px solid violet;
+
+    
+}
